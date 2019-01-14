@@ -2,7 +2,7 @@ FROM alpine:3.5
 MAINTAINER drs <drs@drs.pe.kr>
 
 ENV SUBSONIC_VERSION=6.0.beta1 \
-    SUBSONIC_USERID=1000 \
+    SUBSONIC_USERID=0 \
     SUBSONIC_PORT=4040 \
     SUBSONIC_HOME=/subsonic/home \
     SUBSONIC_MUSIC_FOLDER=/subsonic/music \
